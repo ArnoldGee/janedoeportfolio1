@@ -1,0 +1,28 @@
+.redden {
+  color: #ba4c26;
+}
+.whiten {
+  background-color: white;
+}
+@media (max-width: 600px) {
+  #presentation {
+    position: absolute;
+    right: 0;
+    bottom: 25%;
+  }
+
+  #centerme {
+    margin: auto;
+  }
+  #about,
+  #contact div {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  #carousel-container {
+    width: 90% !important;
+  }
+  .mobile-responsive-input {
+    width: 120% !important;
+  }
+}
